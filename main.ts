@@ -358,5 +358,3 @@ mySprite = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
 tiles.setCurrentTilemap(tilemap`level1`)
-tiles.placeOnRandomTile(mySprite, sprites.castle.tileDarkGrass1)
-scene.cameraFollowSprite(mySprite)
