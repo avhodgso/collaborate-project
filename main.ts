@@ -5,7 +5,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles2, function (s
     ask_math()
 })
 function ask_math () {
-    while (guess == num + num2) {
+    while (guess != num + num2) {
         guess = parseFloat(game.askForString("What is the sum of 2 random #'s from 1-5", 2))
     }
 }
